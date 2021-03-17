@@ -124,6 +124,7 @@ android_library {
         "backgesture-google",
         "smartspace-google",
         "faceunlock_framework",
+        "tensorflowlite_java",
     ],
     manifest: "AndroidManifest.xml",
 
@@ -232,9 +233,7 @@ android_app {
     static_libs: [
         "SystemUI-core",
     ],
-    jni_libs: [
-        "libtensorflowlite_jni",
-    ],
+    jni_libs: ["libtensorflowlite_jni"],
     use_embedded_native_libs: true,
     resource_dirs: [],
 
