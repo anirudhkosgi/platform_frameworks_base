@@ -86,5 +86,10 @@ public class SystemSettings {
         Settings.System.NOTIFICATION_LIGHT_PULSE,
         Settings.System.FULLSCREEN_GESTURES,
         Settings.System.LOCKSCREEN_SMALL_CLOCK,
+        Settings.System.GAMING_MODE_ENABLED,
+        Settings.System.GAMING_MODE_DYNAMIC_ADD,
+        Settings.System.GAMING_MODE_APP_LIST,
+        Settings.System.GAMING_MODE_DISABLE_NOTIFICATION_ALERT,
+        Settings.System.GAMING_MODE_DISABLE_ADB,
     };
 }
