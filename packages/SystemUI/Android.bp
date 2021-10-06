@@ -125,6 +125,8 @@ android_library {
         "smartspace-google",
         "faceunlock_framework",
         "tensorflowlite_java",
+        "colorkt",
+        "themelib",
     ],
     manifest: "AndroidManifest.xml",
 
