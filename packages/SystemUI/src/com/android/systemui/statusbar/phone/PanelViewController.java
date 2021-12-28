@@ -34,6 +34,7 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.SystemClock;
 import android.os.VibrationEffect;
+import android.provider.Settings;
 import android.util.Log;
 import android.util.MathUtils;
 import android.view.InputDevice;
@@ -339,7 +340,8 @@ public abstract class PanelViewController {
     }
 
     protected void maybeVibrateOnOpening() {
-        if (mVibrateOnOpening) {
+        if (mVibrateOnOpening && Settings.System.getInt(mView.getContext().getContentResolver(),
+                Settings.System.HAPTIC_ON_STATUSBAR, 1) != 0) {
             mVibratorHelper.vibrate(VibrationEffect.EFFECT_TICK);
         }
     }
