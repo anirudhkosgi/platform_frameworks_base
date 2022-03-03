@@ -5827,6 +5827,12 @@ public final class Settings {
         public static final String STATUSBAR_BATTERY_BAR_COLOR = "statusbar_battery_bar_color";
 
         /**
+         * Whether do haptic feedback on changed slider value
+         * @hide
+         */
+        public static final String HAPTIC_ON_SLIDER = "haptic_on_slider";
+
+        /**
          * @hide
          */
         public static final String STATUSBAR_BATTERY_BAR_THICKNESS =
