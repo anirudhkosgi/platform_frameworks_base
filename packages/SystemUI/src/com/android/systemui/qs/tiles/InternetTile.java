@@ -128,6 +128,7 @@ public class InternetTile extends SecureQSTile<SignalState> {
         if (checkKeyguard(view, keyguardShowing)) {
             return;
         }
+
         mHandler.post(() -> mInternetDialogFactory.create(true,
                 mAccessPointController.canConfigMobileData(),
                 mAccessPointController.canConfigWifi(), view));
