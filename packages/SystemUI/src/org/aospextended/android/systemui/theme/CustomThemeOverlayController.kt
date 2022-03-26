@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.protonaosp.systemui.theme
+package org.aospextended.android.systemui.theme
 
 import android.annotation.ColorInt
 import android.app.WallpaperColors
